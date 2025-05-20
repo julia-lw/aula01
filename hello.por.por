@@ -3,7 +3,15 @@ programa
 	
 	funcao inicio()
 	{
-		escreva("Olá Mundo")
+	cadeia nome
+	inteiro idade
+		escreva("Qual o seu nome?")
+		leia(nome)
+		escreva("Boa tarde ",nome)
+		escreva("Qual a sua idade?")
+		leia(idade)
+		escreva("Olá, "nome,"você tem ",idade,"anos")
+		
 	}
 }
 /* $$$ Portugol Studio $$$ 
